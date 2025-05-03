@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: my-war-file
-        path: target/*.war  # Adjust this path to your actual WAR file location
+        path: addressbook/*.war  # Adjust this path to your actual WAR file location
 
   deploy:
     needs: build
